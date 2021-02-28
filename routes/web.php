@@ -23,10 +23,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 // 1. Route Biasa
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
